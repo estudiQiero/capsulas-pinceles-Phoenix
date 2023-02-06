@@ -47,7 +47,7 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
-  hyphens: auto;
+  hyphens: au to;
 }
 
 a {
@@ -62,4 +62,91 @@ a {
 ul,
 ol {
   list-style: none;
+}
+
+.ph-bru-capsule {
+  width: 600px;
+  height: 600px;
+  background-color: #d7d7d7;
+  display: flex;
+  flex-direction: column;
+}
+
+.ph-bru-capsule .ph-bru-cont-product {
+  display: flex;
+  flex-direction: row;
+}
+
+.ph-bru-capsule .ph-bru-cont-product .ph-bru-col-left {
+  width: 50%;
+  padding-left: 2rem;
+}
+
+.ph-bru-capsule .ph-bru-cont-product .ph-bru-col-left img {
+  width: 100%;
+  border-bottom-style: none;
+  border-bottom-color: #000000;
+}
+
+.ph-bru-capsule .ph-bru-cont-product .ph-bru-col-right {
+  width: 50%;
+  padding-right: 2rem;
+}
+
+.ph-bru-capsule .ph-bru-cont-product .ph-bru-col-right .ph-bru-prod .ph-bru-cont-img {
+  align-items: flex-end;
+}
+
+.ph-bru-capsule .ph-bru-cont-product .ph-bru-col-right .ph-bru-prod .ph-bru-cont-img img {
+  height: 96%;
+  width: auto;
+}
+
+.ph-bru-capsule .ph-bru-cont-product .ph-bru-prod .ph-bru-cont-img {
+  height: 400px;
+  overflow: hidden;
+  border-bottom: 4px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.ph-bru-capsule .ph-bru-cont-product .ph-bru-prod .ph-bru-cont-numbers ul {
+  padding: 0 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.ph-bru-capsule .ph-bru-cont-product .ph-bru-prod .ph-bru-cont-numbers ul li {
+  padding: 1em;
+  text-align: center;
+}
+
+.ph-bru-capsule .ph-bru-cont-product .ph-bru-prod .ph-bru-cont-numbers ul li:nth-child(1) {
+  width: 15%;
+}
+
+.ph-bru-capsule .ph-bru-cont-product .ph-bru-prod .ph-bru-cont-numbers ul li:nth-child(2) {
+  width: 22%;
+}
+
+.ph-bru-capsule .ph-bru-cont-product .ph-bru-prod .ph-bru-cont-numbers ul li:nth-child(3) {
+  width: 19%;
+}
+
+.ph-bru-capsule .ph-bru-cont-product .ph-bru-prod .ph-bru-cont-numbers ul li:nth-child(4) {
+  width: 40%;
+}
+
+.ph-bru-capsule .ph-bru-cont-text {
+  padding: 3em;
+}
+
+.ph-bru-capsule .ph-bru-cont-text h2 {
+  text-align: center;
+}
+
+.ph-bru-capsule .ph-bru-cont-text p {
+  text-align: center;
 }
